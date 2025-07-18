@@ -40,6 +40,12 @@ import {
 import enershare_values from "./enershare/enershare-values";
 
 import {
+  enertef_welcome,
+  enertef_home,
+  enertef_footer } from './enertef/template-functions';
+import enertef_values from './enertef/template-values';
+
+import {
   template_welcome,
   template_home,
   template_footer,
@@ -74,6 +80,9 @@ class Branding {
       case "enershare":
         this.values = enershare_values;
         break;
+      case 'enertef':
+        this.values = enertef_values;
+        break;
       default:
         console.error(
           "Branding '" +
@@ -104,6 +113,9 @@ class Branding {
       case "enershare":
         homepage = enershare_home();
         break;
+      case 'enertef':
+        homepage = enertef_home();
+        break;
       default:
         homepage = villasweb_home(this.getTitle(), username, userid, role);
         break;
@@ -123,6 +135,9 @@ class Branding {
       case 'enershare':
         footer = enershare_footer();
         break;  
+      case 'enertef':
+        footer = enertef_footer();
+        break;
       default:
         footer = villasweb_footer();
         break;
@@ -148,6 +163,9 @@ class Branding {
       case 'enershare':
         welcome = enershare_welcome();
         break;  
+      case 'enertef':
+        welcome = enertef_welcome();
+        break;
       default:
         welcome = this.defaultWelcome();
         break;

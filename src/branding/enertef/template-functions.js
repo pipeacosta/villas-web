@@ -17,10 +17,10 @@
 import React from 'react';
 
 
-export function template_home() {
+export function enertef_home() {
   return (
     <div className="home-container">
-      <img style={{ height: 120, float: 'right' }} src={require('./img/template_logo.svg').default} alt="Template Logo" />
+      <img style={{ height: 120, float: 'right' }} src={require('./img/Logo NB.svg').default} alt="Template Logo" />
       <h1>Home</h1>
       <p>
         Welcome to <b>EnerTEF</b>!
@@ -35,18 +35,15 @@ export function template_home() {
     </div>)
 }
 
-export function template_welcome() {
+export function enertef_welcome() {
   return (
     <div >
       <h1>Welcome!</h1>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut
-        labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+      <p>This is the Digital Twin for Distributed System Operators, a system designed to  blah blah.</p>
     </div>)
 }
 
-export function template_footer() {
+export function enertef_footer() {
   return (
-    <footer className="app-footer">
-      <p>HELLO WORLD, THIS IS MY FOOTER!</p>
-    </footer>)
+    <footer class="app-footer">The development of this Digital Twin received funding from<p class="funding-logos"><img src="./Logo NB.svg" width="100vw" alt="Logo EnerShare"/></p><a href="https://enershare.eu/">Enershare</a>, an European Union’s Horizon Europe Research and Innovation programme under the Grant Agreement No 101069831.<p>Copyright © 2025 - <a href="https://www.acs.eonerc.rwth-aachen.de">Institute for Automation of Complex Power Systems</a> - <a href="https://www.rwth-aachen.de">RWTH Aachen University</a> </p></footer>)
 }

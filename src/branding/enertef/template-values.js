@@ -16,8 +16,8 @@
  ******************************************************************************/
 
 const template_values = {
-  title: 'Template',
-  subtitle: 'change me!',
+  title: 'Digital Twin for Distributed Energy Systems',
+  subtitle: 'EnerTEF',
   icon: "Logo NB.svg",
   pages: {
     home: true,
