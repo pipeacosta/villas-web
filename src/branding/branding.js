@@ -27,6 +27,9 @@ import opalrt_values from './opalrt/opalrt-values';
 import { template_welcome, template_home, template_footer } from './template/template-functions';
 import template_values from './template/template-values';
 
+import { enertef_welcome, enertef_home, enertef_footer } from './enertef/template-functions';
+import enertef_values from './enertef/template-values';
+
 class Branding {
   constructor(brand) {
     this.brand = brand;
@@ -52,6 +55,9 @@ class Branding {
       case 'template':
         this.values = template_values;
         break;
+      case 'enertef':
+        this.values = enertef_values;
+        break;
       default:
         console.error("Branding '" + this.brand + "' not available, will use 'villasweb' branding");
         this.brand = 'villasweb';
@@ -75,6 +81,9 @@ class Branding {
       case 'template':
         homepage = template_home();
         break;
+      case 'enertef':
+        homepage = enertef_home();
+        break;
       default:
         homepage = villasweb_home(this.getTitle(), username, userid, role);
         break;
@@ -90,6 +99,9 @@ class Branding {
         break;
       case 'opalrt':
         footer = opalrt_footer();
+        break;
+      case 'enertef':
+        footer = enertef_footer();
         break;
       default:
         footer = villasweb_footer();
@@ -112,6 +124,9 @@ class Branding {
         break;
       case 'template':
         welcome = template_welcome();
+        break;
+      case 'enertef':
+        welcome = enertef_welcome();
         break;
       default:
         welcome = this.defaultWelcome();
