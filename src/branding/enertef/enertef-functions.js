@@ -23,7 +23,7 @@ export function enertef_home() {
       <img style={{ height: 120, float: 'right' }} src={require('./img/logo_EnerTEF.svg').default} alt="Template Logo" />
       <h1>Home</h1>
       <p>
-        Welcome to <b>EnerTEF</b>!
+        Welcome to <b>DT-TEF-DSO</b>!
       </p>
       <p>The DT concept for electrical networks is based on the simulation tool DPSim, and allows the interconnection
         to data acquisition devices (measurement devices and status indicators) and the interaction with other systems.</p>
@@ -45,10 +45,11 @@ export function enertef_footer() {
     <footer className="app-footer">
       The development of this Digital Twin received funding from
       <p className="funding-logos">
-        <img src={require=('./img/logo_EnerTEF.svg').default} width="160vw" alt="Logo EnerTEF"/>
-        </p><a href="https://www.enertef.eu/">EnerTEF</a>, an European Union’s Horizon Europe Research and Innovation programme under the Grant Agreement No 101172887.
-        
-        <p>Copyright &copy; {new Date().getFullYear()} - <a href="https://www.acs.eonerc.rwth-aachen.de">Institute for Automation of Complex Power Systems</a> - <a href="https://www.rwth-aachen.de">RWTH Aachen University</a> </p>
-        </footer>
+        <img src={require('./img/logo_EnerTEF.svg').default} width="100vw" alt="Logo EnerTEF"/>
+      </p>
+      <a href="https://www.enertef.eu/">EnerTEF</a>, an European Union’s Horizon Europe Research and Innovation programme under the Grant Agreement No 101172887.  
+      
+      <p>Copyright &copy; {new Date().getFullYear()} - <a href="https://www.acs.eonerc.rwth-aachen.de">Institute for Automation of Complex Power Systems</a> - <a href="https://www.rwth-aachen.de">RWTH Aachen University</a> </p>
+    </footer>
   );
 }

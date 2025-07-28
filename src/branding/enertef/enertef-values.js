@@ -18,7 +18,8 @@
 const enertef_values = {
   title: 'Digital Twin for Distributed Energy Systems',
   subtitle: 'EnerTEF',
-  logo: "enertef_logo.png",
+  icon: "logo_EnerTEF_Icon.svg",
+  logo: "logo_EnerTEF.svg",
   pages: {
     home: true,
     scenarios: true,
