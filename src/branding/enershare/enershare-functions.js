@@ -20,7 +20,7 @@ import React from 'react';
 export function enershare_home() {
   return (
     <div className="home-container">
-      <img style={{ height: 50, float: 'right' }} src={require('./img/logo_EnerTEF_Icon.svg').default} alt="EnerShare Logo" />
+      <img style={{ height: 50, float: 'right' }} src={require('./img/logo_Enershare.svg').default} alt="EnerShare Logo" />
       <h1>Home</h1>
       <p>
         Welcome to <b>DT-FPEN</b>!
