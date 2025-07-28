@@ -42,8 +42,8 @@ import enershare_values from "./enershare/enershare-values";
 import {
   enertef_welcome,
   enertef_home,
-  enertef_footer } from './enertef/template-functions';
-import enertef_values from './enertef/template-values';
+  enertef_footer } from './enertef/enertef-functions';
+import enertef_values from './enertef/enertef-values';
 
 import {
   template_welcome,

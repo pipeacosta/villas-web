@@ -15,10 +15,10 @@
  * along with VILLASweb. If not, see <http://www.gnu.org/licenses/>.
  ******************************************************************************/
 
-const template_values = {
+const enertef_values = {
   title: 'Digital Twin for Distributed Energy Systems',
   subtitle: 'EnerTEF',
-  icon: "Logo NB.svg",
+  logo: "enertef_logo.png",
   pages: {
     home: true,
     scenarios: true,
@@ -28,17 +28,17 @@ const template_values = {
     api: true
   },
   links: {
-    "Google": "https://www.google.com/",
-    "StackOverFlow": "https://stackoverflow.com/"
+    "DPsim Simulator": "https://dpsim.fein-aachen.org",
+    "The Project": "https://www.enertef.eu/"
   },
   style: {
-    background: 'rgba(50,30,90, 0.6)',
-    highlights: 'rgba(0,230,5, 0.75)',
-    main: 'rgba(255,0,0, 1)',
+    background: 'rgba(207,209,210, 1)',
+    highlights: 'rgba(200,59,208, 1)',
+    main: 'rgba(238,89,126, 1)',
     secondaryText: 'rgba(0,0,100, 0.8)',
-    fontFamily: "Comic Sans, sans-serif",
-    borderRadius: "60px"
+    fontFamily: "Inter, sans-serif",
+    borderRadius: "10px"
   }
 }
 
-export default template_values;
+export default enertef_values;
