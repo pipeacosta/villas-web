@@ -16,7 +16,7 @@
  ******************************************************************************/
 
 const enertef_values = {
-  title: 'Digital Twin for Distributed Energy Systems',
+  title: 'Digital Twin for Distributed System Operators',
   subtitle: 'EnerTEF',
   icon: "logo_EnerTEF_Icon.svg",
   logo: "logo_EnerTEF.svg",
